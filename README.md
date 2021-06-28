@@ -25,8 +25,8 @@ from an XML file. Your application should adapt one of the native java XML parsi
 (DOM Parser/Builder, SAX Parser, Java XML I/O) and make it compatible with the
 ConfigManager interface. Example of an XML file:
 
-<code><Button value="Click on me" X="250" Y="300" />
-<EditBox value="Some text to edit" X="250" Y="350" /></code>
+&lt;Button value="Click on me" X="250" Y="300" /&gt;
+&lt;EditBox value="Some text to edit" X="250" Y="350" /&gt;
 ...
 
 
