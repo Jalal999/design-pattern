@@ -24,8 +24,10 @@ To extend the functionality of the system, it must also be possible to load the 
 from an XML file. Your application should adapt one of the native java XML parsing methods
 (DOM Parser/Builder, SAX Parser, Java XML I/O) and make it compatible with the
 ConfigManager interface. Example of an XML file:
-<Button value="Click on me" X="250" Y="300" />
-<EditBox value="Some text to edit" X="250" Y="350" />
+<pre><Button value="Click on me" X="250" Y="300" />
+<EditBox value="Some text to edit" X="250" Y="350" /></pre>
 ...
+
+
 Finally, to test the system, load UI elements from a config file, then from an XML file and
 then create several items during the runtime programmatically.
