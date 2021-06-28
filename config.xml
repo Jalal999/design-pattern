@@ -1,0 +1,4 @@
+<config>
+	<Button value="Click on me" X="250" Y="300" />
+	<EditBox value="Some text to edit" X="250" Y="350" />
+</config>
